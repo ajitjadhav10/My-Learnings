@@ -9,4 +9,4 @@ WHERE prics>200
 ORDER BY price
 
 This will return a data frame
-![table 1](Apache Spark/Screen Shot 2022-03-04 at 5.34.41 PM.png)
+![table 1](https://github.com/ajitjadhav10/My-Learnings/blob/709d67a3779563f7e5076a11c3a17d15c64dfd42/Apache%20Spark/image_1.png)
