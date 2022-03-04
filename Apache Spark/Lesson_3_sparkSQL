@@ -1,4 +1,4 @@
-- We can create a dataframe from a table using either SQL or DATAFRAME API in spark
+#### We can create a dataframe from a table using either SQL or DATAFRAME API in spark
 
 example:
 1. Creating a dataframe using SQL from a table called 'products'
@@ -9,4 +9,6 @@ WHERE prics>200
 ORDER BY price
 
 This will return a data frame
-![table 1](https://github.com/ajitjadhav10/My-Learnings/blob/main/Apache%20Spark/image_1.png?raw=true)
+
+
+![](Apache%20Spark/image_1.png)
