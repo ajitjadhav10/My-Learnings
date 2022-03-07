@@ -13,3 +13,9 @@ DAY 2
 Continuing with data processing
 
 - I replaced all the missing values in a column with the average of the rest of the values
+
+DAY 3
+---
+Continuing with data processing
+
+- Encoding categorical values
