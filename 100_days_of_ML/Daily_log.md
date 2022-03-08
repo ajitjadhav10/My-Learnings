@@ -59,4 +59,4 @@ in Simple Linear regression there is only one independent variable.
 
 - b1 is the co-efficient of independent variable(it is also known as the slope of the line).
 - b0 is a constant, it is also knows as the y-intercept
-![](Extra/Screen%Shot%2022-03-08%at%5.16.50%PM.png)
+![Simple Linear Regression](https://github.com/ajitjadhav10/My-Learnings/blob/8e3ac261ea1812c40d9da284e92de0d121e3bf44/100_days_of_ML/Extra/Screen%20Shot%202022-03-08%20at%205.16.50%20PM.png)
