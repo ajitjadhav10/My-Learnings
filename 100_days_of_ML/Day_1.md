@@ -22,11 +22,28 @@ Continuing with data processing
 
 Day 4
 ---
+Splitting the data into training data and testing data. We'can split the data into train and test dataset by using the train_test_split library from sklearn.model_selection.(refer to the notebook mentioned in 'Day 1' for the code)
+
+Day 5
+---
 Feature Scaling
 
 **Why do we need feature scaling?**
 - It means scaling all the features of our data so that they take all the values in the same scale. This is done so that no feature dominates the other features in our model.
-- It is done after splitting the data into train set and test set because, as test set is supposed to be data which is completely new for the model, if we do feature scaling before the split then, the model will have some information about the test data(this is called as data leakage), which is not what we wan.t
+- It is done after splitting the data into train set and test set because, as test set is supposed to be data which is completely new for the model, if we do feature scaling before the split then, the model will have some information about the test data(this is called as data leakage), which is not what we want.
+
+- Two main techniques of feature scaling are **Standardization** and **Normalisation**
+
+
+
+
+
+
+
+
+
+
+
 
 
 
