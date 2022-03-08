@@ -33,6 +33,7 @@ Feature Scaling
 - It is done after splitting the data into train set and test set because, as test set is supposed to be data which is completely new for the model, if we do feature scaling before the split then, the model will have some information about the test data(this is called as data leakage), which is not what we want.
 
 - Two main techniques of feature scaling are **Standardization** and **Normalisation**
+![](Screen%20Shot%202022-03-08%20at%201.08.53%20PM.png)
 
 
 
