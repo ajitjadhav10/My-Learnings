@@ -55,8 +55,17 @@ y=b(0)+(b1)x
 y is the dependent variable
 x is the independent variable
 
+In Simple Linear Regression, we try to predict the value of the dependent variable based on the value of the independent variable. x and y are assumed to be linearly related.
+
 in Simple Linear regression there is only one independent variable.
 
 - b1 is the co-efficient of independent variable(it is also known as the slope of the line).
 - b0 is a constant, it is also knows as the y-intercept
 ![Simple Linear Regression](https://github.com/ajitjadhav10/My-Learnings/blob/8e3ac261ea1812c40d9da284e92de0d121e3bf44/100_days_of_ML/Extra/Screen%20Shot%202022-03-08%20at%205.16.50%20PM.png)
+
+
+So what a linear regression model does is that it creates many trend lines and calculates the **(sum of the squares of the errors)** for each line. The line which has the minimum value for **sum of the squares of the errors** is the best fit line
+
+Hence, we try to reduce the error to find the best fit line.
+
+
