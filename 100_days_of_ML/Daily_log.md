@@ -64,8 +64,28 @@ in Simple Linear regression there is only one independent variable.
 ![Simple Linear Regression](https://github.com/ajitjadhav10/My-Learnings/blob/8e3ac261ea1812c40d9da284e92de0d121e3bf44/100_days_of_ML/Extra/Screen%20Shot%202022-03-08%20at%205.16.50%20PM.png)
 
 
-So what a linear regression model does is that it creates many trend lines and calculates the **(sum of the squares of the errors)** for each line. The line which has the minimum value for **sum of the squares of the errors** is the best fit line
+1. Linear Regression with one variable/Univariate linear regression
+y=(b0)+(b1)x 
 
-Hence, we try to reduce the error to find the best fit line.
+Day 6
+---
+**Cost function:**
+b0 and b1(also denoted by theta(0) or theta(1) in some books or videos) are known as the parameters.
+
+
+How to choose the values for b0 and b1?
+Idea: Choose b(0) and b(1) such that h(x) (y and h(x) denote the same thing here, i.e the predicted variable) is close to y for our training examples(x,y)
+
+So what a linear regression model does is that it creates many trend lines and calculates the **(sum of the squares of the errors)** (also called as Squared error)for each line. So we need to find the trend line which is closest to the given data (i.e the line which has the smallest error). 
+
+And the squared error function is also known as the **Cost function**.
+
+The line which has the minimum value for **Cost function**/MSE is the best fit line.
+
+
+
+
+
+
 
 
