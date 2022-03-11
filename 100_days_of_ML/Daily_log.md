@@ -2,7 +2,7 @@
 DAY 1
 ----
 
-Refer to this notebook : [part_1_data_processing.ipynb](https://github.com/ajitjadhav10/My-Learnings/blob/main/100_days_of_ML/notebooks/part_1_data_processing.ipynb)
+**Refer to this notebook** : [part_1_data_processing.ipynb](https://github.com/ajitjadhav10/My-Learnings/blob/main/100_days_of_ML/notebooks/part_1_data_processing.ipynb)
 
 - We start with importing the important libraries
 - Then we pre-process the data and create separate dataframes for dependent(Y) and independent variable(X)
@@ -50,6 +50,8 @@ X_test[:,3:]=sc.fit_transform(X_test[:,3:])
 
 **Simple Linear Regression**
 
+**Refer this notebook**: [part_2_simple_linear_regression.ipynb](https://github.com/ajitjadhav10/My-Learnings/blob/main/100_days_of_ML/notebooks/part_2_simple_linear_regression.ipynb)
+
 y=b(0)+(b1)x
 
 y is the dependent variable
@@ -82,7 +84,7 @@ And the squared error function is also known as the **Cost function**.
 
 The line which has the minimum value for **Cost function**/MSE is the best fit line.
 
-
+Have a look at the simple regression model through the link given above.
 
 
 
