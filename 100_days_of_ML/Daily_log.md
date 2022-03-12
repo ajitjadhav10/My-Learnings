@@ -87,7 +87,19 @@ The line which has the minimum value for **Cost function**/MSE is the best fit l
 Have a look at the simple regression model through the link given above.
 
 
+Day 7
+---
+Here, I'll be starting with **Multiple linear regression**
 
+![](https://github.com/ajitjadhav10/My-Learnings/blob/21a6121ec2dda50f15e34c8fcfcdaf607b4c5117/100_days_of_ML/Extra/Screen%20Shot%202022-03-11%20at%209.22.06%20PM.png)
 
+In Multiple Linear Regression there are multiple independent variables and one dependent variable as shown in the equation above.
+
+Following are the following 5 assumptions of Linear Regression:
+1. Linearity
+2. Homoscedasticity
+3. Multivariate normality
+4. Independence of errors
+5. Lack of multicollinearity
 
 
