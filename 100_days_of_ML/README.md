@@ -1,1 +1,1 @@
-##### Documenting my journey of learning ML-insprired by Avik Jain and Siraj Raval
+##### Documenting my journey of learning ML-inspired by Avik Jain and Siraj Raval
