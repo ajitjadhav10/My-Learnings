@@ -108,4 +108,9 @@ Day 8
 ---
 **Understanding p-values**
 
+Hypothesis testing:
+H(0): This is a fair coin
+H(1): This is not a fair coin
 
+
+A coin is tossed 6 times: You get Tailes all 5 times, what yo
