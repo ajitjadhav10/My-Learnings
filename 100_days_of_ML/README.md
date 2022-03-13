@@ -104,4 +104,8 @@ Following are the following 5 assumptions of Linear Regression:
 4. Independence of errors
 5. Lack of multicollinearity
 
+Day 8
+---
+**Understanding p-values**
+
 
