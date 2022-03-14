@@ -106,11 +106,9 @@ Following are the following 5 assumptions of Linear Regression:
 
 Day 8
 ---
-**Understanding p-values**
 
-Hypothesis testing:
-H(0): This is a fair coin
-H(1): This is not a fair coin
+Dummy Variables
 
-
-A coin is tossed 6 times: You get Tailes all 5 times, what yo
+- Understanding p-values
+- Cost function for Linear regression(The goal is to minimize the cost function)
+- Gradient Descent
