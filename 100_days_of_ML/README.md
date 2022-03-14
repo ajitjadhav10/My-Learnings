@@ -111,4 +111,7 @@ Dummy Variables
 
 - Understanding p-values
 - Cost function for Linear regression(The goal is to minimize the cost function)
-- Gradient Descent
+
+Day 8
+---
+- Learning about Gradient Descent
