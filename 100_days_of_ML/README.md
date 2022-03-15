@@ -115,3 +115,7 @@ Dummy Variables
 Day 9
 ---
 - Learning about Gradient Descent
+
+Day 10
+---
+Continuing with Multiple Linear Regression
