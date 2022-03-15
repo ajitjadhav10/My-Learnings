@@ -107,7 +107,7 @@ Following are the following 5 assumptions of Linear Regression:
 Day 8
 ---
 
-Dummy Variables
+Dummy Variables: These are variables which we bring in, in place of categorical variables because categorical variables cannot be be included in mathematical equations.
 
 - Understanding p-values
 - Cost function for Linear regression(The goal is to minimize the cost function)
@@ -119,3 +119,58 @@ Day 9
 Day 10
 ---
 Continuing with Multiple Linear Regression
+
+Day 11
+---
+- What are p values and what is statistical significance?
+
+Let's take an example of a coin toss and we have two hypothesis for this:
+1. H(0)-It is a fair coin(null hypothesis)
+2. H(1)-It is not a fair coin
+
+
+ - *So we start off by assuming that the null hypothesis is true.* Then we toss the coin 6 times one after the other and each time we get tails, but after the 4th toss, the probability of getting a tails goes below 5%(as it is 3% or 0.03 for the 5th try) which is extremely unlikely.
+
+Following are the probability of getting a Tail, if we toss the coin 6 times one after the other;<br>
+ - 1st T-0.5
+ - 2nd T-0.25
+ - 3rd T-0.12
+ - 4th T-0.06
+ ----------
+ - 5th T-0.03
+ - 6th T-0.01
+
+
+ - Hence if the probability of something happening is 5% or less (i.e alpha=0.05) then it is highly unlikely to happen from a random sample, we reject the null hypothesis H(0). So we can say that we have **95%** confidence that this situation where we have 6 consecuetive tails will become true. We can set the confidence level to anything according to the requirement of our experiment. In medical field in some cases we need the confidence interval to be 99%.
+
+Now, I'll be looking at a step-by-step guide at building a model:
+1. All in
+2. Backward Elimination
+3. Forward Selection
+4. Bidirectional Elimination
+5. Score Comparison
+
+
+In 'All in' we use all the predictors from the dataset, following are the cases where you have to use this method:
+- when you are asked to use all the predictors by a client
+- when you have no other option and are required to use all of them
+- when you are preparing for backward elimination
+
+Backward elimination:
+- First, Select a significance level to stay in the model(eg. SL=0.05)
+- Second, Fit the model with all the predictors(as mentioned earlier that we need to use all the predictors while preparing for backward elimination)
+- Third, select the predictors with the **highest**, i.e p-value>SL
+- Fourth, remove the predictor which you had selected in setp 3
+- Fifth, fit the model with the rest of the predictors.
+
+If in step 3, there are no variables with p-value>SL you directly go to fitting your model(i.e your model is prepared)
+
+
+Forward selection:
+- First, Select a significance level to stay in the model(eg. SL=0.05)
+- Second, create a Simple Regression model with all independent variables and then select the one with the lowest p-value
+- Third, with the variable selected in step 2 add one variable and fit it in all possible models, after this add another variable to the step 2 variable fit it in all possible models. Do this for all variables.
+- Fourth, we select the predictor with the lowest p-value(i.e the one with two variables which gave us the lowest p-value in the previous step), if this pvalue<SL,<br>then go step 3 again and now add a third variable to it and follow the same steps. We keep doing this, till the time p-value < SL condition is not true.
+- So we select the model just before the one where the condition p-value<SL was not true.
+
+Refer the notebook for Multiple regression model
