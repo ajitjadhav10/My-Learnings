@@ -166,11 +166,23 @@ Backward elimination:
 If in step 3, there are no variables with p-value>SL you directly go to fitting your model(i.e your model is prepared)
 
 
+
 Forward selection:
 - First, Select a significance level to stay in the model(eg. SL=0.05)
 - Second, create a Simple Regression model with all independent variables and then select the one with the lowest p-value
 - Third, with the variable selected in step 2 add one variable and fit it in all possible models, after this add another variable to the step 2 variable fit it in all possible models. Do this for all variables.
-- Fourth, we select the predictor with the lowest p-value(i.e the one with two variables which gave us the lowest p-value in the previous step), if this pvalue<SL,<br>then go step 3 again and now add a third variable to it and follow the same steps. We keep doing this, till the time p-value < SL condition is not true.
-- So we select the model just before the one where the condition p-value<SL was not true.
+- Fourth, we select the predictor with the lowest p-value(i.e the one with two variables which gave us the lowest p-value in the previous step), if this pvalue<SL,then go step 3 again and now add a third variable to it and follow the same steps. We keep doing this, till the time p-value < SL condition is not true.
+- So we select the model just before the one where the codition was not satisfied.
 
-Refer the notebook for Multiple regression model
+Bidirectional Elimination:
+- Select a SL to enter and stay in the model eg: SLENTER=0.05, SLSTAY=0.05
+- Perform the steps of Forward Selection(here p-value<SLENTER to enter)
+- Now, perform the steps of Backward Elimination(old variables must have p-value<SLSTAY to stay) 
+- When we reach a point where no new variables can enter or old variables can exit then or model is ready
+
+![](https://github.com/ajitjadhav10/My-Learnings/blob/f215840bf56eaa22338971fa3645d4eb27e67857/100_days_of_ML/Extra/Screen%20Shot%202022-03-15%20at%202.01.04%20PM.png)
+
+                                                                            
+                                                                            
+                                                                            
+                                                                            
