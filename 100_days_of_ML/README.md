@@ -182,6 +182,10 @@ Bidirectional Elimination:
 
 ![](https://github.com/ajitjadhav10/My-Learnings/blob/f215840bf56eaa22338971fa3645d4eb27e67857/100_days_of_ML/Extra/Screen%20Shot%202022-03-15%20at%202.01.04%20PM.png)
 
+
+Day 12
+---
+Building a Multiple Regression model, refer the python notebook here:
                                                                             
                                                                             
                                                                             
