@@ -186,6 +186,11 @@ Bidirectional Elimination:
 Day 12
 ---
 Building a Multiple Regression model, refer the python notebook here:
+
+Day 13
+---
+- Continuing with Multiple Regression model which I started yesterday
+- Practicing Linear Regression on iris dataset
                                                                             
                                                                             
                                                                             
