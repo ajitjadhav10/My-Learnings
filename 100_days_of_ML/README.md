@@ -191,6 +191,10 @@ Day 13
 ---
 - Continuing with Multiple Regression model which I started yesterday
 - Practicing Linear Regression on iris dataset
+
+Day 14
+---
+- Polynomial Regression, refer the python notebook here:
                                                                             
                                                                             
                                                                             
