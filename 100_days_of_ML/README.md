@@ -195,7 +195,14 @@ Day 13
 Day 14
 ---
 - Polynomial Regression, refer the python notebook here:
-                                                                            
+
+
+Day 14
+---
+- Continuing with Polynomial Regression
+
+
+
                                                                             
                                                                             
                                                                             
