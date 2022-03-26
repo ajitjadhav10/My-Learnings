@@ -197,9 +197,16 @@ Day 14
 - Polynomial Regression, refer the python notebook here:
 
 
-Day 14
+Day 15
 ---
 - Continuing with Polynomial Regression
+
+Day 16
+---
+- ![](https://github.com/ajitjadhav10/My-Learnings/blob/ff17fb0dfba939c983d06905656534c6477c9fa9/100_days_of_ML/Extra/Screen%20Shot%202022-03-26%20at%2012.18.32%20PM.png)
+- Polynomial Regression is needed when we have non linear data as Linear regression will not be able to give us a best-fit line.
+- It is extremely important to select the optimum value for the degree of the polynomial.
+- If the degree of polynomial is too high, then the model will overfit the data and incase the degree is too small, it'll underfit the data.
 
 
 
