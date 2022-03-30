@@ -208,8 +208,9 @@ Day 16
 - It is extremely important to select the optimum value for the degree of the polynomial.
 - If the degree of polynomial is too high, then the model will overfit the data and incase the degree is too small, it'll underfit the data.
 
-
-
+Day 17
+---
+Continuing with Polynomial Regression
                                                                             
                                                                             
                                                                             
