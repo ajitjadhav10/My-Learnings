@@ -211,6 +211,17 @@ Day 16
 Day 17
 ---
 Continuing with Polynomial Regression
+
+Day 18
+---
+ Support Vector Regression
+ - Vladimir Vapnik
+![](https://github.com/ajitjadhav10/My-Learnings/blob/236f5a617cb560b5100a0f5906b4d0262ba467f2/100_days_of_ML/Extra/Screen%20Shot%202022-03-31%20at%202.34.07%20PM.png)
+
+- In the above plot, epsilon represents the insensitive tube. What is means is that, any
+ 
+ 
+ 
                                                                             
                                                                             
                                                                             
