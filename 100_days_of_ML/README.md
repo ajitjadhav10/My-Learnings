@@ -10,6 +10,18 @@ DAY 1
 - Then we pre-process the data and create separate dataframes for dependent(Y) and independent variable(X)
 
 
+Key concepts:
+- The inability of the machine learning method to capture the true relationship is called **bias**
+- The difference in fits between datasets is called **variance**. Refer the image below, LHS represents how the sqiggly line fits the training set and the RHS represents how the line fits the testing set, this difference in the fitting is called Variance.
+- ![](https://github.com/ajitjadhav10/My-Learnings/blob/3e854aa0c7f7b550a7d7464799c97a6fd69201d0/100_days_of_ML/Extra/Screen%20Shot%202022-04-07%20at%204.10.47%20PM.png)
+- So the squiggly line shown above has **low bias**(as it is flexible and is able to adapt to the curves in the realtionship between height and weight
+- But it has high **variance** because it has vast difference in sums of squares for different datasets.
+- Hence, we cannot accurately tell if the squiggly line will perform well with every dataset,
+- In the below image we can see that a straight line has high bias and low variance.
+
+- Hence, the strainght line might only provide us with good predictions, and not great predictions. But they will be consistently good.
+- Also, as the sqiggly line fits the training dataset really well and not the testing dataset, we say that the squiggly line is overfit.
+
 DAY 2
 ---
 Continuing with data processing
@@ -218,8 +230,14 @@ Day 18
  - Vladimir Vapnik
 ![](https://github.com/ajitjadhav10/My-Learnings/blob/236f5a617cb560b5100a0f5906b4d0262ba467f2/100_days_of_ML/Extra/Screen%20Shot%202022-03-31%20at%202.34.07%20PM.png)
 
-- In the above plot, epsilon represents the insensitive tube. What is means is that, any
- 
+
+Day 19
+---
+Decision Tree
+
+- It consists of CART i.e Classification Trees and Regression Trees
+- Focusing on Regression Trees right now
+- We split the data into terminal leaves
  
  
                                                                             
