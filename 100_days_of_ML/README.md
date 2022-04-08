@@ -238,7 +238,7 @@ Decision Tree
 - It consists of CART i.e Classification Trees and Regression Trees
 - Focusing on Regression Trees right now
 - We split the data into terminal leaves
- 
+
  
                                                                             
                                                                             
