@@ -239,6 +239,10 @@ Decision Tree
 - Focusing on Regression Trees right now
 - We split the data into terminal leaves
 
+Day 20
+---
+- implementing a Decision Tree Regression Model, refer this notebook: [Decision Tree Regression Notebook](https://colab.research.google.com/drive/1IGHq_aUAQ8jXt_E3Xf_nN0XBSmT18ANK#scrollTo=IbO5FW7T8siW)
+
  
                                                                             
                                                                             
