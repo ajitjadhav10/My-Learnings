@@ -237,11 +237,16 @@ Decision Tree
 
 - It consists of CART i.e Classification Trees and Regression Trees
 - Focusing on Regression Trees right now
-- We split the data into terminal leaves
+- Refer this video to leaarn more about Decision Trees: https://www.youtube.com/watch?v=sLXtCwxg5kI
 
 Day 20
 ---
 - implementing a Decision Tree Regression Model, refer this notebook: [Decision Tree Regression Notebook](https://colab.research.google.com/drive/1IGHq_aUAQ8jXt_E3Xf_nN0XBSmT18ANK#scrollTo=IbO5FW7T8siW)
+
+Day 21
+---
+-Continuing with Decision Tree algorithm
+
 
  
                                                                             
