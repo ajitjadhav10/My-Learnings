@@ -12,7 +12,8 @@ DAY 1
 
 Key concepts:
 - The inability of the machine learning method to capture the true relationship is called **bias**
-- The difference in fits between datasets is called **variance**. Refer the image below, LHS represents how the sqiggly line fits the training set and the RHS represents how the line fits the testing set, this difference in the fitting is called Variance.
+- Bias is the measurement of how accurately a model can fit the training dataset. If the error is large, then we say that it has high bias
+- The difference in fits between (test)datasets is called **variance**. Refer the image below, LHS represents how the sqiggly line fits the training set and the RHS represents how the line fits the testing set, this difference in the fitting is called Variance.
 - ![](https://github.com/ajitjadhav10/My-Learnings/blob/3e854aa0c7f7b550a7d7464799c97a6fd69201d0/100_days_of_ML/Extra/Screen%20Shot%202022-04-07%20at%204.10.47%20PM.png)
 - So the squiggly line shown above has **low bias**(as it is flexible and is able to adapt to the curves in the realtionship between height and weight
 - But it has high **variance** because it has vast difference in sums of squares for different datasets.
