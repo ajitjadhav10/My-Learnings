@@ -247,6 +247,18 @@ Day 20
 Day 21
 ---
 -Continuing with Decision Tree algorithm
+- Refer this video for understanding Decision trees: [Decision Trees, Clearly Explained] (https://www.youtube.com/watch?v=g9c66TUylZ4)
+
+Day 22
+---
+- Random Forest Regression
+- Random Forest Regression is a form of Ensemble Learning
+- When we use multiple algorithms together, or one algorithm multiple times, it is called ensemble learning.
+
+- Step 1: pick random k data points from the training dataset
+- Step 2: Build a decision tree based on these data points
+- Choose the number of Ntrees, and then repeat step 1 and 2
+- For a new data point, make each of the Ntrees predict the value of Y for the data point, and assign the new data point the average across all of the predicted Y values
 
 
  
