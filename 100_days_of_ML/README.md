@@ -260,6 +260,9 @@ Day 22
 - Choose the number of Ntrees, and then repeat step 1 and 2
 - For a new data point, make each of the Ntrees predict the value of Y for the data point, and assign the new data point the average across all of the predicted Y values
 
+Day 23
+---
+- Notebook for Random forest regression model:
 
  
                                                                             
