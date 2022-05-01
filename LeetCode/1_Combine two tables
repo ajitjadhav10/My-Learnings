@@ -1,3 +1,4 @@
+#Category: Easy (Combine two tables)
 
 SELECT Person.firstName, Person.lastName, Address.city, Address.state
 FROM Person
