@@ -6,3 +6,10 @@
   - Reach the end of the list
 
 An algorithm should be finite(it should not run for infinite amount of time)
+
+
+- Time complexity: Time taken to execute an algorithm
+- Space complexity: It is the amount of space utilized by the algorithm while executing
+
+
+Binary search: 
