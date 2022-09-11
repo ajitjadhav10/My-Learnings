@@ -1,4 +1,19 @@
 Question: https://leetcode.com/problems/second-highest-salary/
 
+
+OPTION 1:
+
 SELECT max(salary) as SecondHighestSalary from Employee
 WHERE salary<(SELECT max(salary) FROM Employee)
+
+OPTION 2:
+
+WITH EMPSAL AS
+(
+SELECT salary as SecondHighestSalary,
+    DENSE_RANK() OVER(ORDER BY salary DESC) as RNK
+    FROM Employee
+)
+SELECT SecondHighestSalary FROM EMPSAL
+WHERE RNK=2
+LIMIT 1
