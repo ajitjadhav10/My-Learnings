@@ -1,0 +1,20 @@
+Question: https://leetcode.com/problems/department-highest-salary/
+
+
+SELECT Department, Employee, Salary FROM
+(
+    WITH EMP AS
+(
+SELECT Employee.name as Employee, Employee.salary as Salary, Department.name Department
+FROM Employee
+LEFT JOIN Department on Employee.departmentId=Department.id
+)
+#SELECT Department, Employee, Salary FROM EMP
+SELECT Department, Employee, Salary, DENSE_RANK() OVER(PARTITION BY Department ORDER BY Salary DESC) as rnk
+FROM EMP
+) t
+WHERE rnk=1
+ORDER BY Employee
+
+
+Note: This query needs to be optimized
