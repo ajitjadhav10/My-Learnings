@@ -1,0 +1,9 @@
+Question: https://leetcode.com/problems/employee-bonus/
+
+
+SELECT Employee.name as name, Bonus.bonus as bonus 
+FROM Employee
+LEFT JOIN Bonus ON Employee.empId=Bonus.empId
+WHERE bonus<1000
+OR
+bonus IS NULL
