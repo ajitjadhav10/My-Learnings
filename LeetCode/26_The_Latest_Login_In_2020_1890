@@ -1,0 +1,12 @@
+Question: https://leetcode.com/problems/the-latest-login-in-2020/
+The_Latest_Login_In_2020
+
+WITH LOGIN AS
+(
+SELECT user_id, time_stamp as last_stamp,
+DENSE_RANK() OVER(PARTITION BY user_id ORDER BY time_stamp DESC) as rnk
+FROM Logins
+WHERE time_stamp BETWEEN '2020-01-01 00:00:00' AND '2020-12-31 23:59:59'
+)
+SELECT user_id, last_stamp FROM LOGIN
+WHERE rnk=1
