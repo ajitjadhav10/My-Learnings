@@ -1,0 +1,24 @@
+Question:https://leetcode.com/problems/winning-candidate/
+
+WITH TEMPT AS
+(
+SELECT Candidate.name as name, COUNT(Vote.id) FROM Candidate
+INNER JOIN Vote
+ON Candidate.id=Vote.candidateId
+GROUP BY Candidate.name
+ORDER BY COUNT(Vote.id) DESC
+)
+SELECT name FROM TEMPT
+LIMIT 1;
+
+
+#OR
+
+SELECT Candidate.name as name FROM Candidate
+INNER JOIN Vote
+ON Candidate.id=Vote.candidateId
+GROUP BY Candidate.name
+ORDER BY COUNT(Vote.id) DESC
+LIMIT 1;
+
+Note: Both solutions are correct, the second one is faster than the first
