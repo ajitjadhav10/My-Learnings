@@ -1,5 +1,5 @@
 #### Solving Leetcode SQL questions
 
 
-- I daily solve atleast 1 SQL question from Leetcode.
-
+- I try to solve atleast 1 SQL question daily from Leetcode.
+- Current count: 33 solved
