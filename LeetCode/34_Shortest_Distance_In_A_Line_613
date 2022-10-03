@@ -1,0 +1,5 @@
+Question: https://leetcode.com/problems/shortest-distance-in-a-line/
+
+
+SELECT MIN(ABS(a.x-b.x)) as shortest FROM Point a, Point b
+WHERE a.x<b.x
