@@ -74,6 +74,8 @@ x is the independent variable
 
 In Simple Linear Regression, we try to predict the value of the dependent variable based on the value of the independent variable. x and y are assumed to be linearly related.
 
+Here, we try to fit a line(**regression line**) through all the observation points using the least square method. In the least square method, we draw a line throught the data points and measure the sum of the squared residuals(residual is the distance between the predicted value and the actual value, it is also called as error). The line which has the smallest sum of the squared residuals is selected as the regression line.
+
 in Simple Linear regression there is only one independent variable.
 
 - b1 is the co-efficient of independent variable(it is also known as the slope of the line).
@@ -83,6 +85,9 @@ in Simple Linear regression there is only one independent variable.
 
 1. Linear Regression with one variable/Univariate linear regression
 y=(b0)+(b1)x 
+
+
+
 
 Day 6
 ---
