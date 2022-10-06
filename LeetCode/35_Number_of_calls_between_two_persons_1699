@@ -1,0 +1,26 @@
+Question:https://leetcode.com/problems/number-of-calls-between-two-persons/
+
+35_Number_of_calls_between_two_persons_1699
+
+SELECT IF(from_id<to_id, from_id, to_id) as person1, IF(from_id<to_id, to_id, from_id) as person2,
+COUNT(*) as call_count,
+SUM(duration) as total_duration
+FROM Calls
+GROUP BY person1,person2
+
+
+# select IF(from_id < to_id, from_id,to_id) as person1,IF(from_id < to_id, to_id,from_id) as person2, COUNT(*) as call_count,
+#  SUM(duration) as total_duration
+# FROM Calls
+#  GROUP BY person1,person2;
+
+# SELECT 
+# LEAST(from_id,to_id) as person1, 
+# GREATEST(to_id, from_id) as person2, 
+# COUNT(duration) as call_count, 
+# SUM(duration) as total_duration
+# FROM Calls
+# GROUP BY person1, person2
+
+
+Note: All three solutions yield a result, the first one, offered me the fastest run time.
