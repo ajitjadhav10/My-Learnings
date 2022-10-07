@@ -1,0 +1,32 @@
+Question: https://leetcode.com/problems/students-with-invalid-departments/
+
+Note: All three solutions are correct, the first one gave me the fastest run time
+
+-----------
+1)
+
+SELECT s.id, s.name
+FROM Departments d
+RIGHT JOIN Students s
+ON d.id = s.department_id
+WHERE d.id IS NULL
+ 
+----------- 
+2)
+
+WITH TEMP_T AS    
+(    
+SELECT s.id as id, s.name as name, d.name as dept_name FROM Students s
+LEFT JOIN Departments d
+ON s.department_id=d.id
+)
+SELECT id, name FROM TEMP_T
+WHERE dept_name IS NULL
+
+------------
+3)
+
+SELECT s.id as id, s.name as name FROM Students s
+LEFT JOIN Departments d
+ON s.department_id=d.id
+WHERE d.name IS NULL
