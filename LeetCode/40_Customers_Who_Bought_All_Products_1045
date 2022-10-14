@@ -1,0 +1,10 @@
+Question: https://leetcode.com/problems/customers-who-bought-all-products/
+
+Customers_Who_Bought_All_Products
+
+Solution: 
+SELECT 
+customer_id
+FROM Customer
+GROUP BY customer_id
+HAVING COUNT(DISTINCT Customer.product_key)=(SELECT COUNT(product_key) FROM Product)
