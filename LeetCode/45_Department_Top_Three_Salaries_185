@@ -1,0 +1,18 @@
+Question: https://leetcode.com/problems/department-top-three-salaries/
+
+
+Solution:
+
+WITH TEMP_t AS
+(
+SELECT d.name as Department, e.name as name, e.salary as Salary,
+DENSE_RANK() OVER(PARTITION BY d.name ORDER BY e.salary DESC) as rnk1
+FROM Employee e
+LEFT JOIN Department d
+ON e.departmentId=d.id
+)
+SELECT Department, name as Employee, Salary FROM TEMP_t
+WHERE rnk1<=3
+
+Note: When you are looking for top performers based on department or worst performers based on a category, think of using temporary table/dense rank/rank/row number
+Note to self: You cannot use the alias of the rank column in the where clause in the same query
