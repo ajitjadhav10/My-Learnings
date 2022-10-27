@@ -1,0 +1,10 @@
+Question: https://leetcode.com/problems/top-travellers/
+
+
+Solution:
+
+SELECT Users.name as name, SUM(IFNULL(Rides.distance,0)) as travelled_distance FROM Users
+LEFT JOIN Rides
+ON Users.id=Rides.user_id
+GROUP BY Users.id
+ORDER BY SUM(IFNULL(Rides.distance,0)) DESC, Users.name ASC
