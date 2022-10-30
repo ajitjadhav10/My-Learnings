@@ -1,6 +1,7 @@
 Question: https://leetcode.com/problems/department-top-three-salaries/
 
 
+Difficulty: Hard
 Solution:
 
 WITH TEMP_t AS
