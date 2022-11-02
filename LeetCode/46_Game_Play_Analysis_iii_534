@@ -1,0 +1,12 @@
+Question: https://leetcode.com/problems/game-play-analysis-iii/
+
+Game_Play_Analysis_iii
+
+Difficulty: Medium
+
+Solution:
+SELECT player_id, event_date,
+SUM(games_played) OVER(PARTITION BY player_id ORDER BY event_date asc) as games_played_so_far
+FROM Activity
+
+Note: When running sum or cummulative sum is required think of 'sum with window function'
