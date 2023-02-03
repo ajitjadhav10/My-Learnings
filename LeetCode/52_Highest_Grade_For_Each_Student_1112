@@ -1,0 +1,17 @@
+Question: https://leetcode.com/problems/highest-grade-for-each-student/description/
+
+Highest_Grade_For_Each_Student
+
+Solution:
+
+WITH TEMP_T AS
+(
+    SELECT student_id, course_id, grade,
+    ROW_NUMBER() OVER(PARTITION BY student_id ORDER BY grade DESC, course_id ASC) AS rownum
+    FROM Enrollments
+    #ORDER BY course_id
+)
+SELECT student_id, course_id, grade
+FROM TEMP_T
+WHERE rownum=1
+#ORDER BY student_id ASC
