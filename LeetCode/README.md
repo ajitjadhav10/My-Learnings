@@ -2,4 +2,4 @@
 
 
 - I try to solve atleast 1 SQL question daily from Leetcode.
-- Current count: 50 solved 😁
+- Current count: 53 solved 😁
