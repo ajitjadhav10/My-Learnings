@@ -1,0 +1,14 @@
+Question: https://leetcode.com/problems/count-student-number-in-departments/description/
+
+Write an SQL query to report the respective department name and number of students majoring in each department for all departments in the Department table (even ones with no current students).
+Return the result table ordered by student_number in descending order. In case of a tie, order them by dept_name alphabetically.
+The query result format is in the following example.
+
+
+Solution:
+SELECT d.dept_name as dept_name, COUNT(student_id) AS student_number
+FROM Department d
+LEFT JOIN Student s
+ON d.dept_id=s.dept_id
+GROUP BY d.dept_name
+ORDER BY COUNT(s.student_id) DESC, d.dept_name ASC 
