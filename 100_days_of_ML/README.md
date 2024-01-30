@@ -269,7 +269,18 @@ Day 23
 ---
 - Notebook for Random forest regression model:
 
- 
+
+
+
+Restart
+
+**Day 1**
+
+KNN
+- K-nearest neighbour (KNN) is used for classification and regression
+- Highly useful in daily scenarios as it is non parametric(does not make any assumptions about the distribution of data)
+- The algorithm works by finding k-nearest neighbors of a data point using distance metrics like the Euclidean distance
+- Euclidean distance is the shortest distance between two points in the same hyper-plane(eg. a line is a hyperplane in a 2D space, a plane is a hyperplane in a 3D space. A hyperplane is a sub-space with dimension one less the space surrounding it)
                                                                             
                                                                             
                                                                             
