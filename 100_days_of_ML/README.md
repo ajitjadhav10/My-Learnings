@@ -277,10 +277,16 @@ Restart
 **Day 1**
 
 KNN
-- K-nearest neighbour (KNN) is used for classification and regression
-- Highly useful in daily scenarios as it is non parametric(does not make any assumptions about the distribution of data)
+- K-nearest neighbor (KNN) is used for classification and regression
+- Highly useful in daily scenarios as it is **non parametric**(does not make any assumptions about the distribution of data)
 - The algorithm works by finding k-nearest neighbors of a data point using distance metrics like the Euclidean distance
 - Euclidean distance is the shortest distance between two points in the same hyper-plane(eg. a line is a hyperplane in a 2D space, a plane is a hyperplane in a 3D space. A hyperplane is a sub-space with dimension one less the space surrounding it)
+
+- In simple words, in knn we classify a new data point into one of the categories that are present in our data, this classification is done based on the 'new data point's' distance from its 'k' nearest neighbors......k can be 2, 3, 4...100. The value of k has to be selected such that the error is the least at that value of k.
+- So to find the ideal value of k, we calculate the error at different values of k and based on that select the 'k' which works best for our model.
+- Refer to this to learn more about how to select the value of k: https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb
+
+- 
                                                                             
                                                                             
                                                                             
