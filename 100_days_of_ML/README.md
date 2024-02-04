@@ -286,7 +286,16 @@ KNN
 - So to find the ideal value of k, we calculate the error at different values of k and based on that select the 'k' which works best for our model.
 - Refer to this to learn more about how to select the value of k: https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb
 
-- 
+Linear Regression
+- Linear regression is a statistical method to predict a target variable based on the independent variable/variablels. In this it is assumed that there is a linear relation between the dependent and the independent Variable.
+
+Assumptions of Linear Regression:
+- Relationship should be linear
+- little or no multicollinearity
+  - When two or more independent variables are co-related it is called multi-collinearity, this co-relation can cause problems as independent variables are supposed to be independent.
+- little or no auto correlation
+- no outliers
+- Homoscedasticity
                                                                             
                                                                             
                                                                             
