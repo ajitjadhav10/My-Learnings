@@ -293,6 +293,7 @@ Assumptions of Linear Regression:
 - Relationship should be linear
 - little or no multicollinearity
   - When two or more independent variables are co-related it is called multi-collinearity, this co-relation can cause problems as independent variables are supposed to be independent.
+
 - little or no auto correlation
 - no outliers
 - Homoscedasticity
