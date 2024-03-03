@@ -65,13 +65,22 @@ Git can be used via the terminal or a GUI like GitKraken, Sourcetree, Github des
 
 ## Module 1
 
+
+**- Video 1.1**
+
 What is a data-pipeline?
 - In simple words, it is a set of steps that are applied to the data when moving it from one source to another.
 
 ### Introduction to Docker
-- Learnt the basics of docker
-- Created the docker file, built the image
-- Created a basic pipeline and executed the pipeline
+- Learnt the basics of docker.
+- Created the docker file, built the image.
+- Created a basic pipeline and executed the pipeline.
+
+**- Video 1.2**
+- Learnt how to access postgres using docker.
+- Ingested data from jupyter notebook into postgres database.
+
+Things to do: go through the video again to revise.
 
 
 
