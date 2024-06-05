@@ -1,0 +1,21 @@
+Question: https://leetcode.com/problems/department-top-three-salaries/description/
+Difficulty: Hard
+
+
+
+WITH CTE1 AS
+(
+SELECT e.name as Employee, e.salary as Salary, d.name as Department
+FROM Employee e
+LEFT JOIN Department d
+ON e.departmentId=d.id
+),
+CTE2 AS
+(
+    SELECT Department, Employee, Salary,
+    DENSE_RANK() OVER(PARTITION BY Department ORDER BY Salary Desc) as rnk1
+    FROM CTE1
+)
+SELECT Department, Employee, Salary
+FROM CTE2
+WHERE rnk1<4;
